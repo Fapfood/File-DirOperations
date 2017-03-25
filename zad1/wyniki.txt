@@ -1,0 +1,80 @@
+---Record length: 4, number of rows: 500---
+---------With system functions:----------
+	USER:	     144000us		SYSTEM:	   41144000us		REAL:	   82697644us  |--- first sort
+	USER:	          0us		SYSTEM:	     124000us		REAL:	     605960us  |--- shuffle
+	USER:	     140000us		SYSTEM:	   40284000us		REAL:	   74091323us  |--- second sort
+---------With library functions:---------
+	USER:	     116000us		SYSTEM:	   10588000us		REAL:	   20070188us  |--- first sort
+	USER:	          0us		SYSTEM:	     124000us		REAL:	     519836us  |--- shuffle
+	USER:	      92000us		SYSTEM:	   10240000us		REAL:	   20082854us  |--- second sort
+-----------------------------------------
+---Record length: 4, number of rows: 1000---
+---------With system functions:----------
+	USER:	     712000us		SYSTEM:	  165656000us		REAL:	  318063828us  |--- first sort
+	USER:	          0us		SYSTEM:	     268000us		REAL:	     916946us  |--- shuffle
+	USER:	     864000us		SYSTEM:	  180200000us		REAL:	  343985619us  |--- second sort
+---------With library functions:---------
+	USER:	     432000us		SYSTEM:	   37328000us		REAL:	   74366103us  |--- first sort
+	USER:	      16000us		SYSTEM:	     352000us		REAL:	    1223177us  |--- shuffle
+	USER:	     504000us		SYSTEM:	   41468000us		REAL:	   83837307us  |--- second sort
+-----------------------------------------
+---Record length: 512, number of rows: 200---
+---------With system functions:----------
+	USER:	      28000us		SYSTEM:	    6080000us		REAL:	   11894808us  |--- first sort
+	USER:	          0us		SYSTEM:	      72000us		REAL:	     333961us  |--- shuffle
+	USER:	      32000us		SYSTEM:	    7180000us		REAL:	   13687841us  |--- second sort
+---------With library functions:---------
+	USER:	       8000us		SYSTEM:	    2020000us		REAL:	    3838996us  |--- first sort
+	USER:	          0us		SYSTEM:	      96000us		REAL:	     335857us  |--- shuffle
+	USER:	      36000us		SYSTEM:	    2032000us		REAL:	    3756276us  |--- second sort
+-----------------------------------------
+---Record length: 512, number of rows: 400---
+---------With system functions:----------
+	USER:	     168000us		SYSTEM:	   27552000us		REAL:	   51382363us  |--- first sort
+	USER:	          0us		SYSTEM:	     140000us		REAL:	     479891us  |--- shuffle
+	USER:	     208000us		SYSTEM:	   25284000us		REAL:	   48551466us  |--- second sort
+---------With library functions:---------
+	USER:	     116000us		SYSTEM:	    7120000us		REAL:	   14649662us  |--- first sort
+	USER:	       4000us		SYSTEM:	     132000us		REAL:	     539836us  |--- shuffle
+	USER:	     148000us		SYSTEM:	    7796000us		REAL:	   16220111us  |--- second sort
+-----------------------------------------
+---Record length: 4096, number of rows: 100---
+---------With system functions:----------
+	USER:	      16000us		SYSTEM:	    1708000us		REAL:	    3617400us  |--- first sort
+	USER:	          0us		SYSTEM:	      32000us		REAL:	     285005us  |--- shuffle
+	USER:	          0us		SYSTEM:	    1748000us		REAL:	    3705157us  |--- second sort
+---------With library functions:---------
+	USER:	      12000us		SYSTEM:	    1880000us		REAL:	    3332071us  |--- first sort
+	USER:	          0us		SYSTEM:	     120000us		REAL:	     272601us  |--- shuffle
+	USER:	       8000us		SYSTEM:	    1612000us		REAL:	    3811159us  |--- second sort
+-----------------------------------------
+---Record length: 4096, number of rows: 200---
+---------With system functions:----------
+	USER:	      48000us		SYSTEM:	    7164000us		REAL:	   13592518us  |--- first sort
+	USER:	          0us		SYSTEM:	      72000us		REAL:	     658393us  |--- shuffle
+	USER:	      28000us		SYSTEM:	    6352000us		REAL:	   14468215us  |--- second sort
+---------With library functions:---------
+	USER:	     104000us		SYSTEM:	    6336000us		REAL:	   14678846us  |--- first sort
+	USER:	       8000us		SYSTEM:	      52000us		REAL:	     349940us  |--- shuffle
+	USER:	      72000us		SYSTEM:	    6256000us		REAL:	   11983633us  |--- second sort
+-----------------------------------------
+---Record length: 8192, number of rows: 50---
+---------With system functions:----------
+	USER:	          0us		SYSTEM:	     316000us		REAL:	    1181814us  |--- first sort
+	USER:	          0us		SYSTEM:	      12000us		REAL:	     195612us  |--- shuffle
+	USER:	          0us		SYSTEM:	     332000us		REAL:	    1084723us  |--- second sort
+---------With library functions:---------
+	USER:	       4000us		SYSTEM:	     380000us		REAL:	    1610217us  |--- first sort
+	USER:	          0us		SYSTEM:	      20000us		REAL:	     150352us  |--- shuffle
+	USER:	          0us		SYSTEM:	     700000us		REAL:	    1549903us  |--- second sort
+-----------------------------------------
+---Record length: 8192, number of rows: 100---
+---------With system functions:----------
+	USER:	       4000us		SYSTEM:	    1412000us		REAL:	    3325897us  |--- first sort
+	USER:	          0us		SYSTEM:	      36000us		REAL:	     405188us  |--- shuffle
+	USER:	          0us		SYSTEM:	    2168000us		REAL:	    3834703us  |--- second sort
+---------With library functions:---------
+	USER:	       8000us		SYSTEM:	    1552000us		REAL:	    3869667us  |--- first sort
+	USER:	          0us		SYSTEM:	      32000us		REAL:	     321242us  |--- shuffle
+	USER:	      20000us		SYSTEM:	    1760000us		REAL:	    3995161us  |--- second sort
+-----------------------------------------
